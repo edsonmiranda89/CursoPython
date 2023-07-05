@@ -1,9 +1,6 @@
 # teste de salvação fjhvjhfhvjdhfj
 
 
-jwdhfushufhfhuhuhu 
-rfnjeghrjkgehfbv
+print (" bla bla bla")
 
-lfhejfheirhf
-ekjferjeirjg
-rkjgeijrgjiejirgei
+
