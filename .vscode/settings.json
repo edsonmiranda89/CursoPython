@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": -2,
+  "window.zoomLevel": -1,
   "editor.fontSize": 24,
   "editor.hover.enabled": true,
   "workbench.startupEditor": "none",
@@ -31,7 +31,7 @@
   "python.formatting.autopep8Args": [
     "--indent-size=4",
     "--max-line-length=80"
-    // "--ignore=E111"
+    //"--ignore=E111"
   ],
   "python.linting.flake8Args": [
     // "--ignore=E111",
