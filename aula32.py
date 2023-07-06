@@ -3,7 +3,7 @@ Faça um programa que peça ao usuário para digitar um número inteiro,
 informe se este número é par ou ímpar. Caso o usuário não digite um número
 inteiro, informe que não é um número inteiro.
 """
-'''
+
 entrada = input ( "Digite um numero inteiro: ")
 
 try:
@@ -13,11 +13,15 @@ try:
 
     if par_impar:
         par_impar_texto = 'par'
-
-    print(f'O número {entrada_int} é {par_impar_texto}')
+        print(f'O número {entrada_int} é {par_impar_texto}')
+        
+    else: print (f'O numero {entrada_int} é impar')
+  
 except:
     print('Você não digitou um número inteiro')
-    '''
+
+
+    
 
 """
 Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
@@ -54,7 +58,7 @@ Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letra
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
-
+'''
 entrada_str = input ( "Digite o seu nome ! ")
 tamanho_nome = len (entrada_str)
 
@@ -70,4 +74,4 @@ if entrada_str.isalpha():
     # else:
       #  print ("Digite apenas o nome")    
 else : 
-   print ("Digite apenas o nome, sem números ou caracteres especiais")
+   print ("Digite apenas o nome, sem números ou caracteres especiais") '''
