@@ -25,6 +25,7 @@ descrito, exiba a saudação apropriada. Ex.
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 
 """
+'''
 entrada = input( "Digite a hora em numero inteiro ? ")
 hora_now = entrada
 DIA = list(range(0, 12))
@@ -46,3 +47,27 @@ try:
 
 except ValueError:
     print ("Por favor digite apenas um numero inteiro")
+'''
+
+"""
+Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
+menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
+"Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
+"""
+
+entrada_str = input ( "Digite o seu nome ! ")
+tamanho_nome = len (entrada_str)
+
+if entrada_str.isalpha():
+
+ if tamanho_nome >0:
+     if tamanho_nome <=4:
+        print ("Seu nome é curto")
+     elif tamanho_nome >= 5 and tamanho_nome <= 6:
+        print ("Seu nome é normal")
+     elif tamanho_nome >= 7 :
+        print ("Seu nome é grande")
+    # else:
+      #  print ("Digite apenas o nome")    
+else : 
+   print ("Digite apenas o nome, sem números ou caracteres especiais")
