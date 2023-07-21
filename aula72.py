@@ -12,7 +12,7 @@ def multiplicar(*args):
     return total
 
 
-multiplicação = multiplicar(10, 2, 3, 4, 5)
+multiplicação = multiplicar(10, 2, 3, 4, 5,25,33,45,10,)
 print(multiplicação)
 
 
