@@ -1,3 +1,6 @@
+import string
+
+
 perguntas = [
     {
         'Pergunta': 'Quanto é 2+2?',
@@ -15,6 +18,7 @@ perguntas = [
         'Resposta': '5',
     },
 ]
+letras_opcoes = string.ascii_lowercase[:len(perguntas[0]['Opções'])]  # Sequência de letras "a" até "d" (ou quantas opções houver)
 
 qtd_acertos = 0
 for pergunta in perguntas:
@@ -22,9 +26,13 @@ for pergunta in perguntas:
     print()
 
     opcoes = pergunta['Opções']
+
     for i, opcao in enumerate(opcoes):
         print(f'{i + 1})', opcao)  # Adicionando 1 ao valor de i
     print()
+
+    for letra, opcao in zip (letras_opcoes,opcoes):
+        print(f'{letra})',opcao)
 
     escolha = input('Escolha uma opção: ')
 
